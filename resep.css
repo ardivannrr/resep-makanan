@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --clr-bg: #fefefe;
+  --clr-text: #141414;
+  --clr-main-color: #636363;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  line-height: calc(1em + 0.5rem);
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+}
+
+.judul {
+  background-color: var(--clr-text);
+  color: var(--clr-bg);
+  padding: 20px;
+}
+
+.judul h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.resep-makanan {
+  width: 90%;
+  background-color: #b4b4b46b;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px var(--clr-main-color);
+}
+
+.resep-makanan h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.resep-makanan h4 {
+  font-size: 1.2rem;
+}
+
+.resep-makanan ul li {
+  font-size: 0.9rem;
+}
+
+.resep-makanan ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: var(--clr-text);
+  color: var(--clr-bg);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .resep-makanan h2 {
+    font-size: 2.1rem;
+  }
+
+  .resep-makanan h4 {
+    font-size: 1.5rem;
+  }
+
+  .resep-makanan ul li {
+    font-size: 1.1rem;
+  }
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer p {
+    font-size: 1.3rem;
+  }
+}
